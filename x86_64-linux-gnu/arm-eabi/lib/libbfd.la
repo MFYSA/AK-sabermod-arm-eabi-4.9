@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/media/kykint/ubuntu/tmp/arm-eabi-4.9/x86_64-linux-gnu/arm-eabi/lib'
+libdir='/media/kykint/ubuntu/sm-tc/arm-eabi-4.9/x86_64-linux-gnu/arm-eabi/lib'

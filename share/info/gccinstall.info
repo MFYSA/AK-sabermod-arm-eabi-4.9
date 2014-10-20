@@ -3087,6 +3087,16 @@ Binutils pre 2.24 does not have support for selecting '-mabi' and does
 not support ILP32.  If it is used to build GCC 4.9 or later, GCC will
 not support option '-mabi=ilp32'.
 
+   To enable a workaround for the Cortex-A53 erratum number 835769 by
+default (for all CPUs regardless of -mcpu option given) at configure
+time use the '--enable-fix-cortex-a53-835769' option.  This will enable
+the fix by default and can be explicitly disabled during during
+compilation by passing the '-mno-fix-cortex-a53-835769' option.
+Conversely, '--disable-fix-cortex-a53-835769' will disable the
+workaround by default.  The workaround is disabled by default if neither
+of '--enable-fix-cortex-a53-835769' or '--disable-fix-cortex-a53-835769'
+is given at configure time.
+
 *-ibm-aix*
 ==========
 
@@ -4615,63 +4625,63 @@ Ref: ix86-x-solaris210131320
 Ref: ia64-x-linux132511
 Ref: ia64-x-hpux133281
 Ref: aarch64-x-x133836
-Ref: x-ibm-aix134039
-Ref: iq2000-x-elf140902
-Ref: lm32-x-elf141042
-Ref: lm32-x-uclinux141146
-Ref: m32c-x-elf141274
-Ref: m32r-x-elf141376
-Ref: m68k-x-x141478
-Ref: m68k-x-uclinux142516
-Ref: mep-x-elf142761
-Ref: microblaze-x-elf142871
-Ref: mips-x-x142990
-Ref: mips-sgi-irix5145384
-Ref: mips-sgi-irix6145464
-Ref: moxie-x-elf145651
-Ref: msp430-x-elf145698
-Ref: nds32le-x-elf145801
-Ref: nds32be-x-elf145873
-Ref: powerpc-x-x145942
-Ref: powerpc-x-darwin146147
-Ref: powerpc-x-elf146641
-Ref: powerpc-x-linux-gnu146726
-Ref: powerpc-x-netbsd146821
-Ref: powerpc-x-eabisim146909
-Ref: powerpc-x-eabi147035
-Ref: powerpcle-x-elf147111
-Ref: powerpcle-x-eabisim147203
-Ref: powerpcle-x-eabi147336
-Ref: rl78-x-elf147419
-Ref: rx-x-elf147525
-Ref: s390-x-linux147724
-Ref: s390x-x-linux147796
-Ref: s390x-ibm-tpf147883
-Ref: x-x-solaris2148014
-Ref: sparc-x-x152935
-Ref: sparc-sun-solaris2153437
-Ref: sparc-sun-solaris210156190
-Ref: sparc-x-linux156565
-Ref: sparc64-x-solaris2156790
-Ref: sparcv9-x-solaris2157443
-Ref: c6x-x-x157530
-Ref: tilegx-*-linux157622
-Ref: tilegxbe-*-linux157764
-Ref: tilepro-*-linux157907
-Ref: x-x-vxworks158028
-Ref: x86-64-x-x159551
-Ref: x86-64-x-solaris210159879
-Ref: xtensa-x-elf160541
-Ref: xtensa-x-linux161212
-Ref: windows161553
-Ref: x-x-cygwin163486
-Ref: x-x-interix164039
-Ref: x-x-mingw32164347
-Ref: older164573
-Ref: elf166690
-Node: Old166948
-Node: Configurations170081
-Node: GNU Free Documentation License173619
-Node: Concept Index198747
+Ref: x-ibm-aix134616
+Ref: iq2000-x-elf141479
+Ref: lm32-x-elf141619
+Ref: lm32-x-uclinux141723
+Ref: m32c-x-elf141851
+Ref: m32r-x-elf141953
+Ref: m68k-x-x142055
+Ref: m68k-x-uclinux143093
+Ref: mep-x-elf143338
+Ref: microblaze-x-elf143448
+Ref: mips-x-x143567
+Ref: mips-sgi-irix5145961
+Ref: mips-sgi-irix6146041
+Ref: moxie-x-elf146228
+Ref: msp430-x-elf146275
+Ref: nds32le-x-elf146378
+Ref: nds32be-x-elf146450
+Ref: powerpc-x-x146519
+Ref: powerpc-x-darwin146724
+Ref: powerpc-x-elf147218
+Ref: powerpc-x-linux-gnu147303
+Ref: powerpc-x-netbsd147398
+Ref: powerpc-x-eabisim147486
+Ref: powerpc-x-eabi147612
+Ref: powerpcle-x-elf147688
+Ref: powerpcle-x-eabisim147780
+Ref: powerpcle-x-eabi147913
+Ref: rl78-x-elf147996
+Ref: rx-x-elf148102
+Ref: s390-x-linux148301
+Ref: s390x-x-linux148373
+Ref: s390x-ibm-tpf148460
+Ref: x-x-solaris2148591
+Ref: sparc-x-x153512
+Ref: sparc-sun-solaris2154014
+Ref: sparc-sun-solaris210156767
+Ref: sparc-x-linux157142
+Ref: sparc64-x-solaris2157367
+Ref: sparcv9-x-solaris2158020
+Ref: c6x-x-x158107
+Ref: tilegx-*-linux158199
+Ref: tilegxbe-*-linux158341
+Ref: tilepro-*-linux158484
+Ref: x-x-vxworks158605
+Ref: x86-64-x-x160128
+Ref: x86-64-x-solaris210160456
+Ref: xtensa-x-elf161118
+Ref: xtensa-x-linux161789
+Ref: windows162130
+Ref: x-x-cygwin164063
+Ref: x-x-interix164616
+Ref: x-x-mingw32164924
+Ref: older165150
+Ref: elf167267
+Node: Old167525
+Node: Configurations170658
+Node: GNU Free Documentation License174196
+Node: Concept Index199324
 
 End Tag Table
