@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "4.9.3 20141102 (prerelease)")
+(!version  "4.9.3 20141108 (prerelease)")
 (!srcdir  "../.././../gcc/gcc-SaberMod/gcc")
 (!languages 9 ada c cp fortran go java lto objc objcp)
 (!fileslist 190
@@ -5087,47 +5087,47 @@
                             (!type struct 255 
                              (!type already_seen 254)
                              gc_pointed_to "constant_descriptor_rtx"
-                             (!srcfileloc  "varasm.c" 3488)
+                             (!srcfileloc  "varasm.c" 3482)
                              (!fields 10 
                               (!pair  "next"
                                (!type already_seen 254)
-                               (!srcfileloc  "varasm.c" 3478)
+                               (!srcfileloc  "varasm.c" 3472)
                                nil )
                               (!pair  "mem"
                                (!type already_seen 136)
-                               (!srcfileloc  "varasm.c" 3479)
+                               (!srcfileloc  "varasm.c" 3473)
                                nil )
                               (!pair  "sym"
                                (!type already_seen 136)
-                               (!srcfileloc  "varasm.c" 3480)
+                               (!srcfileloc  "varasm.c" 3474)
                                nil )
                               (!pair  "constant"
                                (!type already_seen 136)
-                               (!srcfileloc  "varasm.c" 3481)
+                               (!srcfileloc  "varasm.c" 3475)
                                nil )
                               (!pair  "offset"
                                (!type already_seen 9)
-                               (!srcfileloc  "varasm.c" 3482)
+                               (!srcfileloc  "varasm.c" 3476)
                                nil )
                               (!pair  "hash"
                                (!type already_seen 9)
-                               (!srcfileloc  "varasm.c" 3483)
+                               (!srcfileloc  "varasm.c" 3477)
                                nil )
                               (!pair  "mode"
                                (!type already_seen 9)
-                               (!srcfileloc  "varasm.c" 3484)
+                               (!srcfileloc  "varasm.c" 3478)
                                nil )
                               (!pair  "align"
                                (!type already_seen 9)
-                               (!srcfileloc  "varasm.c" 3485)
+                               (!srcfileloc  "varasm.c" 3479)
                                nil )
                               (!pair  "labelno"
                                (!type already_seen 9)
-                               (!srcfileloc  "varasm.c" 3486)
+                               (!srcfileloc  "varasm.c" 3480)
                                nil )
                               (!pair  "mark"
                                (!type already_seen 9)
-                               (!srcfileloc  "varasm.c" 3487)
+                               (!srcfileloc  "varasm.c" 3481)
                                nil )
                              )
                              (!options 
@@ -17713,7 +17713,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1013 nil  gc_unused "anonymous:../.././../gcc/gcc-SaberMod/gcc/config/arm/arm.c:29437"nil 
+ (!type struct 1013 nil  gc_unused "anonymous:../.././../gcc/gcc-SaberMod/gcc/config/arm/arm.c:29445"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -18813,11 +18813,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1134 nil  gc_unused "anonymous:../.././../gcc/gcc-SaberMod/gcc/varasm.c:4818"nil 
+ (!type struct 1134 nil  gc_unused "anonymous:../.././../gcc/gcc-SaberMod/gcc/varasm.c:4812"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1135 nil  gc_unused "anonymous:../.././../gcc/gcc-SaberMod/gcc/varasm.c:4574"nil 
+ (!type struct 1135 nil  gc_unused "anonymous:../.././../gcc/gcc-SaberMod/gcc/varasm.c:4568"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -20661,15 +20661,15 @@
         (!type struct 1370 
          (!type already_seen 1369)
          gc_pointed_to "rtx_constant_pool"
-         (!srcfileloc  "varasm.c" 3475)
+         (!srcfileloc  "varasm.c" 3469)
          (!fields 4 
           (!pair  "first"
            (!type already_seen 254)
-           (!srcfileloc  "varasm.c" 3463)
+           (!srcfileloc  "varasm.c" 3457)
            nil )
           (!pair  "last"
            (!type already_seen 254)
-           (!srcfileloc  "varasm.c" 3464)
+           (!srcfileloc  "varasm.c" 3458)
            nil )
           (!pair  "const_rtx_htab"
            (!type pointer 1371 nil  gc_used
@@ -20681,7 +20681,7 @@
              (!type already_seen 254)
              nil nil nil nil nil nil nil nil nil nil )
            )
-           (!srcfileloc  "varasm.c" 3470)
+           (!srcfileloc  "varasm.c" 3464)
            (!options 
             (!option param_is type 
              (!type already_seen 255)
@@ -20690,7 +20690,7 @@
           )
           (!pair  "offset"
            (!type already_seen 9)
-           (!srcfileloc  "varasm.c" 3474)
+           (!srcfileloc  "varasm.c" 3468)
            nil )
          )
          nil 511 nil nil )
@@ -23326,7 +23326,7 @@
   nil )
  (!pair  "arm_mangle_map_entry"
   (!type already_seen 1013)
-  (!srcfileloc  "config/arm/arm.c" 29441)
+  (!srcfileloc  "config/arm/arm.c" 29449)
   nil )
  (!pair  "builtin_arg"
   (!type already_seen 9)
@@ -23466,15 +23466,15 @@
   nil )
  (!pair  "tm_alias_pair"
   (!type already_seen 1133)
-  (!srcfileloc  "varasm.c" 5756)
+  (!srcfileloc  "varasm.c" 5750)
   nil )
  (!pair  "oc_local_state"
   (!type already_seen 1134)
-  (!srcfileloc  "varasm.c" 4839)
+  (!srcfileloc  "varasm.c" 4833)
   nil )
  (!pair  "oc_outer_state"
   (!type already_seen 1135)
-  (!srcfileloc  "varasm.c" 4577)
+  (!srcfileloc  "varasm.c" 4571)
   nil )
  (!pair  "block_info"
   (!type already_seen 1151)
@@ -26685,15 +26685,15 @@
   nil )
  (!pair  "elf_fini_array_section"
   (!type already_seen 245)
-  (!srcfileloc  "varasm.c" 7538)
+  (!srcfileloc  "varasm.c" 7531)
   nil )
  (!pair  "elf_init_array_section"
   (!type already_seen 245)
-  (!srcfileloc  "varasm.c" 7537)
+  (!srcfileloc  "varasm.c" 7530)
   nil )
  (!pair  "tm_clone_hash"
   (!type already_seen 1498)
-  (!srcfileloc  "varasm.c" 5714)
+  (!srcfileloc  "varasm.c" 5708)
   (!options 
    (!option param_is type 
     (!type already_seen 1406)
@@ -26703,11 +26703,11 @@
  )
  (!pair  "weakref_targets"
   (!type already_seen 5)
-  (!srcfileloc  "varasm.c" 5408)
+  (!srcfileloc  "varasm.c" 5402)
   nil )
  (!pair  "const_desc_htab"
   (!type already_seen 1500)
-  (!srcfileloc  "varasm.c" 2787)
+  (!srcfileloc  "varasm.c" 2782)
   (!options 
    (!option param_is type 
     (!type already_seen 1330)
@@ -26716,27 +26716,27 @@
  )
  (!pair  "initial_trampoline"
   (!type already_seen 136)
-  (!srcfileloc  "varasm.c" 2498)
+  (!srcfileloc  "varasm.c" 2493)
   nil )
  (!pair  "weak_decls"
   (!type already_seen 5)
-  (!srcfileloc  "varasm.c" 2276)
+  (!srcfileloc  "varasm.c" 2271)
   nil )
  (!pair  "pending_assemble_externals"
   (!type already_seen 5)
-  (!srcfileloc  "varasm.c" 2206)
+  (!srcfileloc  "varasm.c" 2201)
   nil )
  (!pair  "shared_constant_pool"
   (!type already_seen 1369)
-  (!srcfileloc  "varasm.c" 189)
+  (!srcfileloc  "varasm.c" 184)
   nil )
  (!pair  "anchor_labelno"
   (!type already_seen 9)
-  (!srcfileloc  "varasm.c" 186)
+  (!srcfileloc  "varasm.c" 181)
   nil )
  (!pair  "object_block_htab"
   (!type already_seen 1502)
-  (!srcfileloc  "varasm.c" 183)
+  (!srcfileloc  "varasm.c" 178)
   (!options 
    (!option param_is type 
     (!type already_seen 244)
@@ -26745,7 +26745,7 @@
  )
  (!pair  "section_htab"
   (!type already_seen 1504)
-  (!srcfileloc  "varasm.c" 180)
+  (!srcfileloc  "varasm.c" 175)
   (!options 
    (!option param_is type 
     (!type already_seen 246)
@@ -26754,7 +26754,7 @@
  )
  (!pair  "unnamed_sections"
   (!type already_seen 245)
-  (!srcfileloc  "varasm.c" 172)
+  (!srcfileloc  "varasm.c" 167)
   nil )
  (!pair  "const_labelno"
   (!type already_seen 9)
